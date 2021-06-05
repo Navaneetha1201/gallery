@@ -275,7 +275,7 @@ var simplemaps_countrymap_mapdata={
       description: "A land of cultural and religious heritage, Tamil Nadu offers every chance to the tourist or pilgrims to be enchanted with the vast plethora of history and beauty that it has. It is a blend of modern and ancient, that makes Tamil Nadu a beautiful destination to explore our past cultural heritage with all the amenities of the present.",
       color: "default",
       hover_color: "default",
-      url: "https://oviyaudhayakumar.github.io/gallary/"
+      url: "map.html"
     },
     "32": {
       name: "Tripura",
