@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAREBUZZ</title>
+    <link rel="stylesheet" href="button.css">
+	
+	</head>
+	<body>
+	
+<center>	
+<br><br>
+<video src="vid.mp4" autoplay playsinline muted></video>
+
+<header class="viewport-header">
+ <div id="some-button"><ol><div class="wrap">
+  <a href="map.html"><h1><button class="button" style="font-family:Rockwell;">PLAY</button></h1></a>
+
+</div>
+<em><b><a href="Instructions.html" style="font-size:25px; color:#FF3333; text-decoration:none; font-family:Rockwell;">Instructions</a></b></em></ol></div>
+</header>
+<script>
+        document.getElementById("some-button").style.display = "none";
+
+        function showStuff() {
+            document.getElementById("some-button").style.display = "inline";
+        }
+
+        function myFunction() {
+            window.location = "button.html"
+        }
+
+        setTimeout(showStuff, 5000);
+    </script>
+</center>
+</body>
+</html>
